@@ -1,0 +1,357 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en" data-color-mode="auto" data-light-theme="light" data-dark-theme="dark" >
+  <head>
+    <meta charset="utf-8">
+
+
+
+  <link crossorigin="use-credentials" media="all" integrity="sha512-sD8zc/Dn1lguLc4FdbeVhD2gfxFCTXGr/y+MpJG3oX1vkAyaFf/7BHPtvv1dAHA0KG4bDEW3Ex1EPrzGTMtN2Q==" rel="stylesheet" href="https://assets.github.umn.edu/assets/light-b03f3373f0e7.css" /><link crossorigin="use-credentials" media="all" integrity="sha512-V0872pNNqPTaPQFzdwX9tHIzJvB4F1Foi6VYDciZAMo/qHgBC8PvN2d/SkMweiNDbR6eF3cXcG0aPVrEtC8zqw==" rel="stylesheet" href="https://assets.github.umn.edu/assets/dark-574f3bda934d.css" /><link data-color-theme="dark_dimmed" crossorigin="use-credentials" media="all" integrity="sha512-PzuUWYSTZfXfFMEstZYF7zd5TnBiunweYKf7SA0USRWwzNBPELoB8ZhGVGTwcMSwF5ff9kyBAdGzEbfJ2/4cig==" rel="stylesheet" data-href="https://assets.github.umn.edu/assets/dark_dimmed-3f3b94598493.css" /><link data-color-theme="dark_high_contrast" crossorigin="use-credentials" media="all" integrity="sha512-PDguTqV/sgFBBIdGLWGe50pI4GUQjVg3NQIm1ue9+6Wtn5qdx122aGJ1/M6IydIYhVs1tRfeLBl8P+7lNRRHlg==" rel="stylesheet" data-href="https://assets.github.umn.edu/assets/dark_high_contrast-3c382e4ea57f.css" /><link data-color-theme="dark_colorblind" crossorigin="use-credentials" media="all" integrity="sha512-PZ0pkh4DltajJswDsmdCrHotI3eS5qb+etb48dcRDxUuiy0g2YP+kw5sQi04CE7AO+J33JXg86PAQoivVKkdKg==" rel="stylesheet" data-href="https://assets.github.umn.edu/assets/dark_colorblind-3d9d29921e03.css" /><link data-color-theme="light_colorblind" crossorigin="use-credentials" media="all" integrity="sha512-P+VDoZFVyqfAb06foA/ZLUzHkdMPqEQq1d1B0VSzEzOF3fidwKWULgI+b1E+OoF7VnC5HXRS4lMJPKKc6wrc8g==" rel="stylesheet" data-href="https://assets.github.umn.edu/assets/light_colorblind-3fe543a19155.css" /><link data-color-theme="light_high_contrast" crossorigin="use-credentials" media="all" integrity="sha512-33ulzUgAM4pZv65KAcvjwZLHiC4bQaF61LiK9BiAQ/kuCG/+LtNi2clT1gfb72sa9SOsiu4fs4bEBL543Ms3Iw==" rel="stylesheet" data-href="https://assets.github.umn.edu/assets/light_high_contrast-df7ba5cd4800.css" />
+    <link crossorigin="use-credentials" media="all" integrity="sha512-2pBn/Nm2vIcOeOTXfWdjbD+TejS7NnfCHBF8hQeOPC+YRSECRnATm24/D1Olh8Q8ekvdrl7Y3jKRf7pqTfL4eA==" rel="stylesheet" href="https://assets.github.umn.edu/assets/frameworks-da9067fcd9b6.css" />
+    <link crossorigin="use-credentials" media="all" integrity="sha512-pF1PCFx8qNjA8jW5rKIN8gFZa2t1a5qflA6uV2VPY1zfJE85aIbA/kN5Z9Vj7yorc2ruv6LdjccQvwP8nyZqXg==" rel="stylesheet" href="https://assets.github.umn.edu/assets/behaviors-a45d4f085c7c.css" />
+  <link crossorigin="use-credentials" media="all" integrity="sha512-gtE/qgkpNJ9abx/dXLuvqJ58pqMH5I4hudT8a6UybKpgBGvquu7XM7BK8yiB6wfmPJTy6tRmD5uN44vLBLGkbg==" rel="stylesheet" href="https://assets.github.umn.edu/assets/github-82d13faa0929.css" />
+
+
+
+  <script crossorigin="use-credentials" defer="defer" type="application/javascript" integrity="sha512-P8ZJQ3cIZccY/m5+5P4m6DSyRQQyxEAyhkQUXM7ShjF2hp6UI233z8d8TaHzauQ4VA4Fv6e4E13YElAjgRqZ1Q==" src="https://assets.github.umn.edu/assets/runtime-3fc649437708.js"></script>
+<script crossorigin="use-credentials" defer="defer" type="application/javascript" integrity="sha512-/60A2/6dLC43TT9rA0QBLRuG9Sreq8FCULwAwUt8sxZWcDMhjHyiYSSO6TaEEcnb55AnhIBJTcgjkuoqcK8iKQ==" src="https://assets.github.umn.edu/assets/environment-ffad00dbfe9d.js"></script>
+<script crossorigin="use-credentials" defer="defer" type="application/javascript" integrity="sha512-mNt9opq5jyqeZdWMV25dquh3PeAJZk/NFBfdGMUbTN7JB344FlZu6Jr8g/ieGGy+3sy5REA/uZXM0GmGKqOpcw==" src="https://assets.github.umn.edu/assets/5329-98db7da29ab9.js"></script>
+<script crossorigin="use-credentials" defer="defer" type="application/javascript" integrity="sha512-9n/KDFl7RTBwlMhFd7BrFVXj5dJnvyMjRzKu4rxr4eKDf8zqcP3hbZVzCiBdR0e0jS2L8asQfzsnHSK2c+ZF7g==" src="https://assets.github.umn.edu/assets/2486-f67fca0c597b.js"></script>
+<script crossorigin="use-credentials" defer="defer" type="application/javascript" integrity="sha512-qNL70NcbKIFaK7Pc/pynQJLTpp1jZIBaFA7o31IrfbYEiuDqi/TnCkEU4QxKSVaLxtt5B1Y6zNRz2iUgqaqdew==" src="https://assets.github.umn.edu/assets/8475-a8d2fbd0d71b.js"></script>
+<script crossorigin="use-credentials" defer="defer" type="application/javascript" integrity="sha512-H/F50N+M9z2+JkI/7v34Hcedrm01LD6TPomVD3jiqhDkjk/uIAate1EKFGfoQOT+jJGEOuWw7zxoXd/MpeD6qg==" src="https://assets.github.umn.edu/assets/github-elements-1ff179d0df8c.js"></script>
+<script crossorigin="use-credentials" defer="defer" type="application/javascript" integrity="sha512-vfhwshVNS2KZQJM3a2Zj2nU+XJSUkEGQ/NeRa/lrl7pffYqRlUlYdJoI9uTavPa7Z+LGfC5DkQ4Zt1+yvlOb5w==" src="https://assets.github.umn.edu/assets/element-registry-bdf870b2154d.js"></script>
+<script crossorigin="use-credentials" defer="defer" type="application/javascript" integrity="sha512-ZAKZQWCEc6bs9LSQOCPRWq3wqRDkQxG2bPL/pW9Lj/Seap0PV0kF/yKCHske8mW3Zytde9n1Im83jxrCmpaMrA==" src="https://assets.github.umn.edu/assets/5724-640299416084.js"></script>
+<script crossorigin="use-credentials" defer="defer" type="application/javascript" integrity="sha512-Hb8d69V10VxkC90NX3zvjNovHq5vrRv0XCde5qNf5WiQAB6BziCN+gEbKG+fDj8i05B2pBdyGIh+3pmaRvzLJA==" src="https://assets.github.umn.edu/assets/5388-1dbf1debd575.js"></script>
+<script crossorigin="use-credentials" defer="defer" type="application/javascript" integrity="sha512-j9tCiIT7h+++Hko9qwRezOfoO32kBBlf6Te9zZyxxmrxG1EA5ji2QCYAIzd5vXB7616gZ5m9J+WMQwv3VEf1wA==" src="https://assets.github.umn.edu/assets/93-8fdb428884fb.js"></script>
+<script crossorigin="use-credentials" defer="defer" type="application/javascript" integrity="sha512-JPHg6lXC/kVMbA05VoaD5W739fMUF/ObaJ4NrZWLi91OWI9xEhJ9NtwbGROmxjCm5FGwNOVohY+DXILkO19dtA==" src="https://assets.github.umn.edu/assets/8932-24f1e0ea55c2.js"></script>
+<script crossorigin="use-credentials" defer="defer" type="application/javascript" integrity="sha512-heG3JMoQq3ducVj0rke7ixXR6HU4XKtSlNnKQ6uGDD+JjKmcpeXRiBBQnX1biRw9F33Eyqkqv7wifIWv4lEk/Q==" src="https://assets.github.umn.edu/assets/1717-85e1b724ca10.js"></script>
+<script crossorigin="use-credentials" defer="defer" type="application/javascript" integrity="sha512-Fdjf+VMPiRTZp0c99jKxOL5u/xLImvoDNWFxd2Lmb9dVBzC58xNeBe0aKv80LbIhMmY435Pk6Y6Oan4vpD+cAg==" src="https://assets.github.umn.edu/assets/8646-15d8dff9530f.js"></script>
+<script crossorigin="use-credentials" defer="defer" type="application/javascript" integrity="sha512-/V7241I4oTyrmfzf1ZLgzrDMftUwrGlFXG26BaMgW8Koi8/8InvjGu+skviYVpZN5G4FOCsUNoE3zS6R73Sqgg==" src="https://assets.github.umn.edu/assets/3682-fd5ef6e35238.js"></script>
+<script crossorigin="use-credentials" defer="defer" type="application/javascript" integrity="sha512-JLnnTPhYd6z7k1g7CjOIUK4YQRvqCzvSNqRq6GH8tenPhyDVVXDp//clwLGS9xZc07/khbn/oI6NNUUUU5viPQ==" src="https://assets.github.umn.edu/assets/3932-24b9e74cf858.js"></script>
+<script crossorigin="use-credentials" defer="defer" type="application/javascript" integrity="sha512-avY7kgWZi20dcW5UgNkiKrgbOKvJGW0kArbkQcA9MWQx0SRjJv4JcKHNdMN3o6ML+inGPd8ib1+nJECF5VJ5Kw==" src="https://assets.github.umn.edu/assets/3826-6af63b920599.js"></script>
+<script crossorigin="use-credentials" defer="defer" type="application/javascript" integrity="sha512-VfEhOF3vJdJ+i5cQoTmkzhJkxjRPTIrU1bTLu39ms25ObDi0opXGXXwnJxmDuYgumNezrhY8CSC2Za7ZKQNVaA==" src="https://assets.github.umn.edu/assets/5222-55f121385def.js"></script>
+<script crossorigin="use-credentials" defer="defer" type="application/javascript" integrity="sha512-+TxHzzEQ5THqEC40r63JqVKLWJDtFzWCGPjpRg7a1tsiP+La1H9jyCRVtvbjP2kOOp5FQS+HvSV/zq1lCPbi7g==" src="https://assets.github.umn.edu/assets/behaviors-f93c47cf3110.js"></script>
+<script crossorigin="use-credentials" defer="defer" type="application/javascript" integrity="sha512-gy8qIM5ywfZwY9t64qGa3rDcqWJGKXayF+CsUt0owghpz2eqnNX2tMtSRRdOybIIwu6cScH/b8SkXvSHQt5qow==" src="https://assets.github.umn.edu/assets/7749-832f2a20ce72.js"></script>
+<script crossorigin="use-credentials" defer="defer" type="application/javascript" integrity="sha512-KKLG+hE5uCMJHxwocsH3WQNYzT3qftRjkNe7L0b5aOMgoS5iT5oWDIwhiy38adTWwg6xdomYeWvi2+wQBjOBAg==" src="https://assets.github.umn.edu/assets/notifications-global-28a2c6fa1139.js"></script>
+<script crossorigin="use-credentials" defer="defer" type="application/javascript" integrity="sha512-j9aa4mY3RsVxl/T9t17vcUmtCLfAGlx0vKa5aoA0OsheuVU1hhkLZ1ZRV1TsShVhC8TfEy3A1QvfMnSVPJ0VGw==" src="https://assets.github.umn.edu/assets/6852-8fd69ae26637.js"></script>
+<script crossorigin="use-credentials" defer="defer" type="application/javascript" integrity="sha512-kV+EsD5ByxLbMvhzvskPgr8ye8kS38tIbKixlTr7v2oNkBBTG++5VYD4bEmPU0srpmfm6sLl/EwIMWArlTE7Xw==" src="https://assets.github.umn.edu/assets/4569-915f84b03e41.js"></script>
+<script crossorigin="use-credentials" defer="defer" type="application/javascript" integrity="sha512-5y6aJBHKZkxcjc6KsY949Akh1VcrUDeVQ0SSYujLMYH3iisFQTiIYo7pX2GfC7g73t9gjCXLFt3QNBVybhqLqw==" src="https://assets.github.umn.edu/assets/settings-e72e9a2411ca.js"></script>
+<script crossorigin="use-credentials" defer="defer" type="application/javascript" integrity="sha512-d07IZVCUiag5cXr+IQD0/FE4Sa8qGLbbKwRQYSk80Vf85DRCQgSGwDAv1RazDZb0Fo23BbHjBfyxoJELLQ3jZQ==" src="https://assets.github.umn.edu/assets/7163-774ec8655094.js"></script>
+<script crossorigin="use-credentials" defer="defer" type="application/javascript" integrity="sha512-77fDmR6CZRMVZ69ih4pmRIyxKKQLtIXU5V+e54fl+eqOeY8c0jspHRzf6VNsqk0LCeXqSMmViBi5x6gU5YhsqA==" src="https://assets.github.umn.edu/assets/sessions-efb7c3991e82.js"></script>
+    <script crossorigin="use-credentials" defer="defer" type="application/javascript" integrity="sha512-PZOInk2+47XdtbA0tM0VFGa22YDelv0gT0IpMKnkBoFuS4zlmI8bAsMi6pRD+owH2f+8SJcpwwmc3x8zgXYiLw==" src="https://assets.github.umn.edu/assets/unsupported-3d93889e4dbe.js"></script>
+
+
+  <meta name="viewport" content="width=device-width">
+  
+  <title>Sign in via LDAP · GitHub</title>
+    <meta name="description" content="GitHub is where people build software. More than 73 million people use GitHub to discover, fork, and contribute to over 200 million projects.">
+    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
+  <link rel="fluid-icon" href="https://github.umn.edu/fluidicon.png" title="GitHub">
+  <meta property="fb:app_id" content="1401488693436528">
+  
+    <meta property="og:url" content="https://github.umn.edu">
+    <meta property="og:site_name" content="GitHub">
+    <meta property="og:title" content="Build software better, together">
+    <meta property="og:description" content="GitHub is where people build software. More than 73 million people use GitHub to discover, fork, and contribute to over 200 million projects.">
+    <meta property="og:image" content="https://assets.github.umn.edu/images/modules/open_graph/github-logo.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image" content="https://assets.github.umn.edu/images/modules/open_graph/github-mark.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="620">
+    <meta property="og:image" content="https://assets.github.umn.edu/images/modules/open_graph/github-octocat.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="620">
+
+    <meta property="twitter:site" content="github">
+    <meta property="twitter:site:id" content="13334762">
+    <meta property="twitter:creator" content="github">
+    <meta property="twitter:creator:id" content="13334762">
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="GitHub">
+    <meta property="twitter:description" content="GitHub is where people build software. More than 73 million people use GitHub to discover, fork, and contribute to over 200 million projects.">
+    <meta property="twitter:image:src" content="https://assets.github.umn.edu/images/modules/open_graph/github-logo.png">
+    <meta property="twitter:image:width" content="1200">
+    <meta property="twitter:image:height" content="1200">
+
+
+
+    
+
+  <link rel="assets" href="https://assets.github.umn.edu/">
+  
+
+
+  <meta name="request-id" content="2e721a80-f9c1-48f9-84e3-403d771dda61" data-pjax-transient="true" /><meta name="html-safe-nonce" content="89009a8384c9db22d93ae0b05e3eea0c592210b786a517496065b45522ddef07" data-pjax-transient="true" />
+
+
+
+  <meta name="github-keyboard-shortcuts" content="" data-pjax-transient="true" />
+
+  
+
+  <meta name="selected-link" value="/login" data-pjax-transient>
+
+  
+
+
+
+
+
+
+
+  
+
+      <meta name="hostname" content="github.umn.edu">
+    <meta name="user-login" content="">
+
+    <meta name="codemirror-crossorigin-credentials">
+
+
+    <meta name="robots" content="noindex">
+
+
+    <meta name="runtime-environment" content="enterprise">
+    <meta name="is-private-instance" content="false">
+
+  <meta http-equiv="x-pjax-version" content="4aa0c1a99b9bee873d777106b88e756ea9d6f40fc51a8a291fb4edde0eaa0750" data-turbo-track="reload">
+  <meta http-equiv="x-pjax-csp-version" content="03b3826807ad7fda282af77283d7a588aa89b9986a96cbc205140c55d7d85f4d" data-turbo-track="reload">
+  <meta http-equiv="x-pjax-css-version" content="daa6a30ebf682708b4783347c9c691f6fdce4f9f74f753faa95b600419463930" data-turbo-track="reload">
+  <meta http-equiv="x-pjax-js-version" content="f8fdb87f3879273d6220ee6592860a2d083fe729012776ac57a23db1c00df8bd" data-turbo-track="reload">
+  
+
+      <link crossorigin="use-credentials" media="all" integrity="sha512-gtE/qgkpNJ9abx/dXLuvqJ58pqMH5I4hudT8a6UybKpgBGvquu7XM7BK8yiB6wfmPJTy6tRmD5uN44vLBLGkbg==" rel="stylesheet" href="https://assets.github.umn.edu/assets/github-82d13faa0929.css" />
+
+
+
+    <link rel="canonical" href="https://github.umn.edu/login" data-pjax-transient>
+
+
+
+  <link rel="mask-icon" href="https://assets.github.umn.edu/pinned-octocat.svg" color="#000000">
+  <link rel="alternate icon" class="js-site-favicon" type="image/png" href="https://assets.github.umn.edu/favicons/favicon-ent.png">
+  <link rel="icon" class="js-site-favicon" type="image/svg+xml" href="https://assets.github.umn.edu/favicons/favicon-ent.svg">
+
+<meta name="theme-color" content="#1e2327">
+<meta name="color-scheme" content="light dark" />
+
+
+  <link rel="manifest" href="/manifest.json" crossOrigin="use-credentials">
+
+  </head>
+
+  <body class="logged-out enterprise env-production page-responsive session-authentication" style="word-wrap: break-word;">
+    
+
+    <div class="position-relative js-header-wrapper ">
+      <a href="#start-of-content" class="px-2 py-4 color-bg-accent-emphasis color-fg-on-emphasis show-on-focus js-skip-to-content">Skip to content</a>
+      <span data-view-component="true" class="progress-pjax-loader js-pjax-loader-bar Progress position-fixed width-full">
+    <span style="width: 0%;" data-view-component="true" class="Progress-item progress-pjax-loader-bar left-0 top-0 color-bg-accent-emphasis"></span>
+</span>      
+      
+
+          <div id="unsupported-browser" class="unsupported-browser" hidden>
+  <div class="container-lg p-responsive clearfix d-flex flex-items-center py-2">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-alert mr-2 hide-sm color-fg-subtle">
+    <path fill-rule="evenodd" d="M8.22 1.754a.25.25 0 00-.44 0L1.698 13.132a.25.25 0 00.22.368h12.164a.25.25 0 00.22-.368L8.22 1.754zm-1.763-.707c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0114.082 15H1.918a1.75 1.75 0 01-1.543-2.575L6.457 1.047zM9 11a1 1 0 11-2 0 1 1 0 012 0zm-.25-5.25a.75.75 0 00-1.5 0v2.5a.75.75 0 001.5 0v-2.5z"></path>
+</svg>
+    <div class="d-flex flex-auto flex-column flex-md-row">
+      <div class="flex-auto min-width-0 mr-2" style="padding-top:1px">
+        <span>GitHub no longer supports this web browser.</span>
+        <a href="https://docs.github.com/enterprise/3.5/articles/supported-browsers">
+          Learn more about the browsers we support.
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+        <div class="header header-logged-out width-full pt-5 pb-4" role="banner">
+  <div class="container clearfix width-full text-center">
+      <a class="header-logo" href="https://github.umn.edu/" aria-label="Homepage">
+          <img alt="GitHub Enterprise logo" src="https://assets.github.umn.edu/images/modules/enterprise/gh-enterprise-logo.svg" width="204">
+      </a>
+  </div>
+</div>
+
+
+    </div>
+
+  <div id="start-of-content" class="show-on-focus"></div>
+
+
+
+
+
+
+
+
+    
+
+  <include-fragment class="js-notification-shelf-include-fragment" data-base-src="https://github.umn.edu/notifications/beta/shelf"></include-fragment>
+
+
+
+
+
+  <div
+    class="application-main "
+    data-commit-hovercards-enabled
+    data-discussion-hovercards-enabled
+    data-issue-and-pr-hovercards-enabled
+  >
+      <main id="js-pjax-container" data-pjax-container>
+        
+
+
+  <div class="auth-form px-3" id="login" >
+
+
+      <input type="hidden" name="ga_id" class="js-octo-ga-id-input">
+      <div class="auth-form-header p-0">
+        <h1>Sign in via LDAP</h1>
+      </div>
+
+
+      <div data-pjax-replace id="js-flash-container">
+
+
+  <template class="js-flash-template">
+    <div class="flash flash-full  {{ className }}">
+  <div class="px-2" >
+    <button class="flash-close js-flash-close" type="button" aria-label="Dismiss this message">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x">
+    <path fill-rule="evenodd" d="M3.72 3.72a.75.75 0 011.06 0L8 6.94l3.22-3.22a.75.75 0 111.06 1.06L9.06 8l3.22 3.22a.75.75 0 11-1.06 1.06L8 9.06l-3.22 3.22a.75.75 0 01-1.06-1.06L6.94 8 3.72 4.78a.75.75 0 010-1.06z"></path>
+</svg>
+    </button>
+    
+      <div>{{ message }}</div>
+
+  </div>
+</div>
+  </template>
+</div>
+
+
+      <div class="flash js-transform-notice" hidden>
+        <button class="flash-close js-flash-close" type="button" aria-label="Dismiss this message">
+          <svg aria-label="Dismiss" role="img" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x">
+    <path fill-rule="evenodd" d="M3.72 3.72a.75.75 0 011.06 0L8 6.94l3.22-3.22a.75.75 0 111.06 1.06L9.06 8l3.22 3.22a.75.75 0 11-1.06 1.06L8 9.06l-3.22 3.22a.75.75 0 01-1.06-1.06L6.94 8 3.72 4.78a.75.75 0 010-1.06z"></path>
+</svg>
+        </button>
+      </div>
+
+      <div class="auth-form-body mt-3">
+
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form data-turbo="false" action="/session" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="JvY0vEzZnWviS1vEjb37M_d8Py8nT6buYiHDtYTJf18VeOU_p6ujLdyDzjk93oHNVA4aY9bfgvj7dPYnSuvDoQ" />  <label for="login_field">
+    Username
+  </label>
+  <input type="text" name="login" id="login_field" class="form-control input-block js-login-field" autocapitalize="off" autocorrect="off" autocomplete="username" autofocus="autofocus" />
+
+  <div class="position-relative">
+    <label for="password">
+      Password
+    </label>
+    <input type="password" name="password" id="password" class="form-control form-control input-block js-password-field" autocomplete="current-password" />
+    <input type="hidden" name="trusted_device" id="trusted_device" autocomplete="off" class="form-control" />
+    
+<input type="hidden" class="js-webauthn-support" name="webauthn-support" value="unknown">
+<input type="hidden" class="js-webauthn-iuvpaa-support" name="webauthn-iuvpaa-support" value="unknown">
+<input type="hidden" name="return_to" id="return_to" value="https://github.umn.edu/umn-csci-4707-f19/repo-Team24/blob/master/Project/Task3/Tests/underage_guardian_1.docx" autocomplete="off" class="form-control" />
+<input type="hidden" name="allow_signup" id="allow_signup" autocomplete="off" class="form-control" />
+<input type="hidden" name="client_id" id="client_id" autocomplete="off" class="form-control" />
+<input type="hidden" name="integration" id="integration" autocomplete="off" class="form-control" />
+
+
+    <input type="submit" name="commit" value="Sign in" class="btn btn-primary btn-block js-sign-in-button" data-disable-with="Signing in…" data-signin-label="Sign in" data-sso-label="Sign in with your identity provider" development="false" />
+
+    
+  </div>
+</form>
+      </div>
+
+
+
+
+  </div>
+
+      </main>
+  </div>
+
+          <div class="footer container-lg p-responsive py-6 mt-6 f6" role="contentinfo">
+    <ul class="list-style-none d-flex flex-justify-center">
+        <li><a href="https://docs.github.com/enterprise/3.5">Help</a></li>
+            <li class="ml-3"><a href="mailto:help@umn.edu">Support</a></li>
+    </ul>
+  </div>
+
+
+
+  <div id="ajax-error-message" class="ajax-error-message flash flash-error" hidden>
+    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-alert">
+    <path fill-rule="evenodd" d="M8.22 1.754a.25.25 0 00-.44 0L1.698 13.132a.25.25 0 00.22.368h12.164a.25.25 0 00.22-.368L8.22 1.754zm-1.763-.707c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0114.082 15H1.918a1.75 1.75 0 01-1.543-2.575L6.457 1.047zM9 11a1 1 0 11-2 0 1 1 0 012 0zm-.25-5.25a.75.75 0 00-1.5 0v2.5a.75.75 0 001.5 0v-2.5z"></path>
+</svg>
+    <button type="button" class="flash-close js-ajax-error-dismiss" aria-label="Dismiss error">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x">
+    <path fill-rule="evenodd" d="M3.72 3.72a.75.75 0 011.06 0L8 6.94l3.22-3.22a.75.75 0 111.06 1.06L9.06 8l3.22 3.22a.75.75 0 11-1.06 1.06L8 9.06l-3.22 3.22a.75.75 0 01-1.06-1.06L6.94 8 3.72 4.78a.75.75 0 010-1.06z"></path>
+</svg>
+    </button>
+    You can’t perform that action at this time.
+  </div>
+
+  <div class="js-stale-session-flash flash flash-warn flash-banner" hidden
+    >
+    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-alert">
+    <path fill-rule="evenodd" d="M8.22 1.754a.25.25 0 00-.44 0L1.698 13.132a.25.25 0 00.22.368h12.164a.25.25 0 00.22-.368L8.22 1.754zm-1.763-.707c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0114.082 15H1.918a1.75 1.75 0 01-1.543-2.575L6.457 1.047zM9 11a1 1 0 11-2 0 1 1 0 012 0zm-.25-5.25a.75.75 0 00-1.5 0v2.5a.75.75 0 001.5 0v-2.5z"></path>
+</svg>
+    <span class="js-stale-session-flash-signed-in" hidden>You signed in with another tab or window. <a href="">Reload</a> to refresh your session.</span>
+    <span class="js-stale-session-flash-signed-out" hidden>You signed out in another tab or window. <a href="">Reload</a> to refresh your session.</span>
+  </div>
+    <template id="site-details-dialog">
+  <details class="details-reset details-overlay details-overlay-dark lh-default color-fg-default hx_rsm" open>
+    <summary role="button" aria-label="Close dialog"></summary>
+    <details-dialog class="Box Box--overlay d-flex flex-column anim-fade-in fast hx_rsm-dialog hx_rsm-modal">
+      <button class="Box-btn-octicon m-0 btn-octicon position-absolute right-0 top-0" type="button" aria-label="Close dialog" data-close-dialog>
+        <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x">
+    <path fill-rule="evenodd" d="M3.72 3.72a.75.75 0 011.06 0L8 6.94l3.22-3.22a.75.75 0 111.06 1.06L9.06 8l3.22 3.22a.75.75 0 11-1.06 1.06L8 9.06l-3.22 3.22a.75.75 0 01-1.06-1.06L6.94 8 3.72 4.78a.75.75 0 010-1.06z"></path>
+</svg>
+      </button>
+      <div class="octocat-spinner my-6 js-details-dialog-spinner"></div>
+    </details-dialog>
+  </details>
+</template>
+
+    <div class="Popover js-hovercard-content position-absolute" style="display: none; outline: none;" tabindex="0">
+  <div class="Popover-message Popover-message--bottom-left Popover-message--large Box color-shadow-large" style="width:360px;">
+  </div>
+</div>
+
+    <template id="snippet-clipboard-copy-button">
+  <div class="zeroclipboard-container position-absolute right-0 top-0">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn js-clipboard-copy m-2 p-0 tooltipped-no-delay" data-copy-feedback="Copied!" data-tooltip-direction="w">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon m-2">
+    <path fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path><path fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none m-2">
+    <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
+</svg>
+    </clipboard-copy>
+  </div>
+</template>
+
+
+
+
+  </body>
+</html>
+
